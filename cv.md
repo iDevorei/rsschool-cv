@@ -1,5 +1,5 @@
 **name and photo:** Maksim Kazlouski
-![myself](https://scontent.fkut1-1.fna.fbcdn.net/v/t1.18169-9/1929959_1029796170418216_3992473412560134431_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OQv-2oXjhYYAX-0tHjZ&_nc_ht=scontent.fkut1-1.fna&oh=00_AfDDCPC9pMbFPrHXHQqtJXTNGLRFiur-BaWcAbmCcePULA&oe=644AC8E8 "myself")
+![myself](https://ibb.co/WKbzmFw "myself")
 ****
 
 
