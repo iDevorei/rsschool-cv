@@ -10,16 +10,16 @@
     <div class="wrapper">
         <header class="header-cv">
             <nav class="nav-menu">
-                <div>General information</div>
-                <div>Contacts</div>
-                <div>About myself</div>
-                <div>Skills</div>
-                <div>Example</div>
-                <div>Education</div>
+                <div><a href="#info">General information</a></div>
+                <div><a href="#contact">Contacts</a></div>
+                <div><a href="#about">About myself</a></div>
+                <div><a href="#skill">Skills</a></div>
+                <div><a href="#example">Example</a></div>
+                <div><a href="#education">Education</a></div>
             </nav>
         </header>
         <main class="main-cv">
-            <div class="general">
+            <div id="info" class="general">
                 <h1>General information</h1>
                 <figure class="photo">
                     <img src="./img/img_main_01.jpeg" alt="my_photo">
@@ -27,21 +27,22 @@
                 </figure>
             </div>
 
-            <div class="contacts">
+            <div id="contact" class="contacts">
+                <h2>Contacts</h2>
                 <details>
-                    <summary>Contacts</summary>
+                    <summary>Click to open contacts</summary>
                     <p>Phone: 595081871</p>
                     <p>E-mail: messewalter@gmail.com</p>
-                    <p>Git: [GitHub](https://github.com/iDevorei "GitHub")</p>
+                    <p>Git: [GitHub](<a href="https://github.com/iDevorei" target="_blank">"GitHub"</a>)</p>
                     <p>Telegram: @iDevore</p>
                     <p>Discord (rs-school server): Максим Козловский (@iDevorei)</p>
                 </details>
             </div>
 
-            <h2>About myself</h2>
+            <h2 id="about">About myself</h2>
             <p>My goal is to become a good front-end developer. I've been going to this goal for a very long time. I don't want to stop. I am a person who wants to change the nature of his work and become a front-end developer. My skills are not very high at the moment, but I try to study the material in the way that is available to me.</p>
 
-            <h2>Skills</h2>
+            <h2 id="skill">Skills</h2>
             <ol>
                 <li>HTML (in process)</li>
                 <li>CSS (in process)</li>
@@ -49,7 +50,7 @@
                 <li>JavaScript (in process)</li>
             </ol>
 
-            <h3>Example</h3>
+            <h3 id="example">Example</h3>
             <pre>
                 <code>
                     function multiply(a, b){
@@ -61,14 +62,18 @@
             </pre>
 
             <h2>projects</h2>
-            <p>[CV](https://github.com/iDevorei/rsschool-cv/blob/gh-pages/cv.md "CV")</p>
+            <p>CV <a href="https://github.com/iDevorei/rsschool-cv/blob/gh-pages/cv.md" target="_blank">My CV example</a> </p>
 
-            <h2>Education and English level</h2>
+            <h2 id="education">Education and English level</h2>
             <p>The Belarusian State University of Culture and Arts</p>
-            <p>A2</p>
-            <p>https://examinator.epam.com/Main/PersonalAssignments</p>
+            <p>Englsh:A2 <a href="https://examinator.epam.com/Main/PersonalAssignments" target="_blank">Test results</a></p>
         </main>
-        <footer class="footer-cv"></footer>
+        <footer class="footer-cv">
+            <img class="logo" src="./img/rs_school_js.svg" alt="logo">
+            <p><a href="https://github.com/iDevorei" target="_blank">My GitHub</a></p>
+            <p><a href="https://rs.school/js/" target="_blank">RS school course</a></p>
+            <p>2023 year</p>
+        </footer>
     </div>
 </body>
 </html>
