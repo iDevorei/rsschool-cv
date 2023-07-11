@@ -1,4 +1,28 @@
-.test_span {
-    font-style: italic;
+.wrapper {
+    max-width: 80%;
+}
+
+.nav-menu, .footer-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.general {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-change {
     font-size: 16px;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 10%;
 }
