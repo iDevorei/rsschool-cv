@@ -1,1 +1,1 @@
-# rsschool-cv
+https://iDevorei.github.io/rsschool-cv/
